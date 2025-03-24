@@ -1,0 +1,148 @@
+{
+  "name": "VINIZIAZ-XMD",
+  "description": "Best whatsapp bot developed by Viniziaz",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "viniziaz",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://github.com/Viniznimco/VINIZIAZ-XMD#readme",
+  "repository": "https://github.com/Viniznimco/VINIZIAZ-XMD.git",
+  "logo": "https://i.imgur.com/SJcaVXl.jpeg",
+  "success_url": "/",
+  "env": {
+    "PREFIX": {
+      "description": "Prefix of VINIZIAZ-XMD Ex: . , / , # , & etc. Put any symbol symbol bro you aren't weak",
+      "required": false
+
+    },
+    "DEV": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,96643294699  ",
+      "required": true
+    },
+    "NOT_OWNER_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
+      "required": false
+    },
+    
+    
+    "BOT_ADMIN_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Only Viniziaz can do this!",
+      "required": false
+    },
+    "ADMIN_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
+      "required": false
+    },
+    "HEROKU_API": {
+      "description": "Put a Heroku api key here, will be required to update vars in your Dm",
+      "required": true
+    },
+    "BAD_WORD": {
+      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: Idiot, shit, fuck",
+      "required": false
+    },
+    "BAD_WORD_KICK": {
+      "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
+      "required": false
+    },
+    "GROUP_ONLY_MSG": {
+      "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
+      "required": false
+    },
+      "AUTOREAD": {
+      "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
+      "required": true
+},
+ "AUTOVIEW": {
+      "description": "Input TRUE if you want bot to automatically read status update",
+      "required": true
+},
+ "WA_PRESENCE": {
+      "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
+      "required": true
+},
+ "WELCOMEGOODBYE": {
+      "description": "Input TRUE if you want bot to welcome new members joining group or wave goodbye to members leaving a group.",
+      "value": "FALSE",
+      "required": false
+},
+   
+ "ANTILINK": {
+      "description": "Input TRUE if you want bot to kick link senders",
+      "required": true
+},
+ "ANTILINK_ALL": {
+      "description": "Input TRUE if you want bot to kick users sending any links.",
+      "required": true
+},
+ "ANTIBOT": {
+      "description": "Input TRUE if you want bot to kick other bots from group",
+      "required": false
+},
+ "CODE": {
+      "description": "Input you country code here without + eg 254, it Will be used to Eliminate foreigners from the group once prompted.",
+      "value": "254",
+      "required": true
+},
+ "SESSION": {
+      "description": "Paste your Session id here, as it is required for authenticationn.",
+      "required": true
+},
+ "MODE": {
+      "description": "Input PRIVATE if you don't want other people to use your bot",
+      "required": true
+    },
+    
+ "AUTOBIO": {
+      "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
+      "required": false
+},
+ "APP_NAME": {
+      "description": "Input your app name that you put above, Must be in small letters.",
+      "required": true
+},
+ "STICKER_AUTHOR": {
+      "description": "Input sticker data for author",
+      "required": false
+},
+ "STICKER_PACKNAME": {
+      "description": "Input sticker data for packname",
+      "required": false
+},
+ "GPT_INBOX": {
+      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
+      "required": false
+},
+ "MENU_TYPE": {
+      "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
+      "required": false
+
+    
+    
+    },
+    "AUTOLIKE_STATUS": {
+      "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+    }
+  ]
+    }
