@@ -6,7 +6,7 @@ Viniziaz-Yᴍᴅ y³
   </p>
 
 <p align="center">
-  <a href="https://github.com/Viniznimco/VINIZIAZ-LION">
+  <a href="https://github.com/Viniznimco/VINIZIAZ-XMD">
     <img alt="VINIZIAZ LION-XMD logo" height="200" src="https://i.imgur.com/bYClBF8.jpeg">
   </a>
 </p>
