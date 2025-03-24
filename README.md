@@ -27,8 +27,8 @@ Viniziaz-Yᴍᴅ y³
   <img src="https://github.com/Viniznimco/VINIZIAZ-XMD" alt="Widget with the current Spotify song"  />
 </div>
 <p align="center">
-  <a href="https://github.com/Viniznimco/VINIZIAZ-LION/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Viniznimco/VINIZIAZ-LION"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://github.com/Viniznimco/VINIZIAZ-XMD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Viniznimco/VINIZIAZ-XMD"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
   <a href="https://youtu.be/izoxfW3anrU"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
 
@@ -86,7 +86,7 @@ star✨ Hello gee 👊 star my repo for smooth deployment
 
 **2. If You Have Account On Heroku**
 
-   ***[![Deploy on heroku](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FViniznimco%2FVINIZIAZ-LION)](https://viniziaz-xmd-website.vercel.app/)***
+   ***[![Deploy on heroku](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FViniznimco%2FVINIZIAZ-XMD)](https://viniziaz-xmd-website.vercel.app/)***
 
 **DEPLOY ON RENDER**
 
@@ -135,7 +135,7 @@ The WhatsApp Bot VINIZIAZ MD🦁 is released under the [MIT License](https://ope
 
 ## DEVELOPERS :
          `don't change here`
-- [**VINIZIAZ LION**](https://github.com/Viniznimco/VINIZIAZ-XMD)
+- [**VINIZIAZ NIMCO**](https://github.com/Viniznimco/VINIZIAZ-XMD)
 - [**SNAPDRAGON**](https://github.com/Viniznimco/VINIZIAZ-XMD)
 - [** SIR VINIZIAZ TECH**](https://github.com/Frecyber)
 - [**Developers WA Group**](https://chat.whatsapp.com/CP2BirU5pBj04cXXgEbfuv)
