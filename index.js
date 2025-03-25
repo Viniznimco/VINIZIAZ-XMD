@@ -248,7 +248,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       console.log(color("Congrats, VINIZIAZ-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nimco_Viniziaz", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
+      client.sendMessage(client.user.id, { text: `𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇 𝗶𝘀 𝗻𝗼𝘄 𝗔𝗰𝘁𝗶𝘃𝗲 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
     }
   });
 
@@ -413,7 +413,7 @@ async function startViniziaz() {
     console.log('Decoded JID:', nimcoj);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, nimcoj] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🦁' } }, { statusJidList: [mek.key.participant, nimcoj] });
         console.log('Reaction sent');
     }
 }
@@ -573,7 +573,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       console.log(color("Congrats, VINIZIAZ-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nimco_Viniziaz", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
+      client.sendMessage(client.user.id, { text: `𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇 𝗶𝘀 𝗻𝗼𝘄 𝗔𝗰𝘁𝗶𝘃𝗲 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
     }
   });
 
