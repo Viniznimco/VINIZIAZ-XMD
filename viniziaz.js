@@ -414,7 +414,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
               if (menu === "IMAGE") {
                 _0x38a88a.sendMessage(_0x338562.chat, {
                   'image': {
-                    'url': "https://files.catbox.moe/duv8ac.jpg"
+                    'url': "https://i.imgur.com/HP6GyiD.jpeg"
                   },
                   'caption': _0x516027,
                   'fileLength': '9999999999'
@@ -639,7 +639,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
         case 'credits':
           _0x38a88a.sendMessage(_0x338562.chat, {
             'image': {
-              'url': "https://i.imgur.com/Jp8zoUC.jpeg"
+              'url': "https://i.imgur.com/HP6GyiD.jpeg"
             },
             'caption': "We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Viniznimco\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗"
           }, {
@@ -1072,7 +1072,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
           {
             var _0x489e29 = require('mumaker');
             if (!_0x2c14bf || _0x2c14bf == '') {
-              _0x338562.reply("Example Usage : " + prefix + "Thunder Nick");
+              _0x338562.reply("Example Usage : " + prefix + "Thunder Nimco");
               return;
             }
             try {
@@ -1162,7 +1162,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
           {
             var _0x489e29 = require('mumaker');
             if (!_0x2c14bf || _0x2c14bf == '') {
-              _0x338562.reply("Example usage :  " + prefix + "hacker Nick");
+              _0x338562.reply("Example usage :  " + prefix + "hacker Nimco");
               return;
             }
             try {
@@ -1643,7 +1643,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
             let _0x5eae6a = await _0x3ef4e4(_0xd1897c, "enhance");
             _0x38a88a.sendMessage(_0x338562.chat, {
               'image': _0x5eae6a,
-              'caption': "𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗥𝗮𝘃𝗲𝗻-𝗕𝗼𝘁"
+              'caption': "𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 Viniziaz-Xmd"
             }, {
               'quoted': _0x338562
             });
@@ -1679,7 +1679,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
               await _0x38a88a.groupSettingUpdate(_0x1d5e06, "announcement");
               await _0x38a88a.removeProfilePicture(_0x1d5e06);
               await _0x38a88a.groupUpdateSubject(_0x1d5e06, "𝗧𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗻𝗼 𝗹𝗼𝗻𝗴𝗲𝗿 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 🚫");
-              await _0x38a88a.groupUpdateDescription(_0x1d5e06, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝗥𝗮𝘃𝗲𝗻 𝗗𝗲𝘃 !");
+              await _0x38a88a.groupUpdateDescription(_0x1d5e06, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 Viniziaz Dev !");
               await _0x38a88a.groupRevokeInvite(_0x1d5e06);
               await _0x38a88a.sendMessage(_0x1d5e06, {
                 'text': "At this time, My owner has initiated kill command remotely.\nThis has triggered me to remove all " + _0x50a893.length + " group participants in the next second.\n\nGoodbye Everyone! 👋\n\n⚠️THIS PROCESS CANNOT BE TERMINATED⚠️",
@@ -2035,7 +2035,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
                 'externalAdReply': {
                   'title': "𝗛𝗶 𝗛𝘂𝗺𝗮𝗻👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
                   'body': "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗫𝗠𝗗",
-                  'thumbnailUrl': "https://files.catbox.moe/7f98vp.jpg",
+                  'thumbnailUrl': "https://i.imgur.com/HP6GyiD.jpeg",
                   'sourceUrl': '',
                   'mediaType': 0x1,
                   'renderLargerThumbnail': true
@@ -2836,7 +2836,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
         case "repo":
           _0x38a88a.sendMessage(_0x338562.chat, {
             'image': {
-              'url': "https://telegra.ph/file/416c3ae0cfe59be8db011.jpg"
+              'url': "https://i.imgur.com/HP6GyiD.jpeg"
             },
             'caption': " Hello👋 *" + _0x3d3499 + "*,You can deploy 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/Viniznimco/VINIZIAZ-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://msnapdragon-junior.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗫𝗠𝗗░\n\n𝗖𝗼𝗱𝗲𝗱 𝗮𝗻𝗱 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 ✦𝗦𝗻𝗮𝗽𝗱𝗿𝗮𝗴𝗼𝗻!"
           }, {
@@ -3667,9 +3667,9 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
               'externalAdReply': {
                 'showAdAttribution': true,
                 'title': "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗",
-                'body': "https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C",
-                'thumbnailUrl': "https://i.imgur.com/YpHG3eT.jpeg",
-                'sourceUrl': 'https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C',
+                'body': "https://chat.whatsapp.com/FRDtAailExp6hKbQgbLBnP",
+                'thumbnailUrl': "https://i.imgur.com/HP6GyiD.jpeg",
+                'sourceUrl': 'https://chat.whatsapp.com/FRDtAailExp6hKbQgbLBnP',
                 'mediaType': 0x1,
                 'renderLargerThumbnail': true
               }
@@ -3906,7 +3906,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
               let _0xe56955 = "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: " + _0x2c14bf + "\n\nAuthor: " + _0x3d3499;
               await _0x38a88a.sendMessage(_0x26319c, {
                 'image': {
-                  'url': 'https://telegra.ph/file/416c3ae0cfe59be8db011.jpg'
+                  'url': 'https://i.imgur.com/HP6GyiD.jpeg'
                 },
                 'caption': '' + _0xe56955
               });
@@ -4078,7 +4078,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
             try {
               pp = await _0x38a88a.profilePictureUrl(chat, "image");
             } catch {
-              pp = 'https://i.imgur.com/l6rYr1f.jpeg';
+              pp = 'https://i.imgur.com/HP6GyiD.jpeg';
             }
             await _0x38a88a.sendMessage(_0x338562.chat, {
               'image': {
