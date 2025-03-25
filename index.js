@@ -244,7 +244,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
         startViniziaz();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
+      await client.groupAcceptInvite("FRDtAailExp6hKbQgbLBnP");
       console.log(color("Congrats, VINIZIAZ-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
