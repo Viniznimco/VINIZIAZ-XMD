@@ -1,5 +1,5 @@
 <p align="center">
-Viniziaz-Yᴍᴅ y³
+𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 𝗩³
 </p>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +VINIZIAZ;WHATSAPP+BOT+CREATED+BY+VINIZIAZ" alt="Typing SVG" /></a>
@@ -12,7 +12,7 @@ Viniziaz-Yᴍᴅ y³
 </p>
   
 </h1> 
-<p align="center">𝐘𝐎𝐔 𝐀𝐑𝐄 𝐎𝐍  <b>Viniziaz-xmd</b>, 𝗔 𝗕𝗲𝗮𝘂𝘁𝗶𝗳𝘂𝗹 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁 𝗕𝘆 𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍</p>
+<p align="center">𝐘𝐎𝐔 𝐀𝐑𝐄 𝐎𝐍  <b>𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗</b>, 𝗔 𝗕𝗲𝗮𝘂𝘁𝗶𝗳𝘂𝗹 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁 𝗕𝘆 𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍</p>
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{viniziaz nimco}/count.svg" alt="Viniziaz ymd :: Visitor's Count" /></p>
