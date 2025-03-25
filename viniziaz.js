@@ -138,7 +138,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
     const _0xb8046d = _0x338562.isGroup ? await _0x45adcc(_0x23ae2f) : '';
     const _0x2437eb = _0x338562.isGroup ? _0xb8046d.includes(_0x1c9a44) : false;
     const _0x580faf = _0x338562.isGroup ? _0xb8046d.includes(_0x338562.sender) : false;
-    const _0x521127 = "254114660061".split(',');
+    const _0x521127 = "254759925133".split(',');
     const _0x561290 = new Date();
     const _0x6c20e6 = speed();
     const _0x44c1ca = speed() - _0x6c20e6;
@@ -430,7 +430,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
                       'title': "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗",
                       'body': '' + runtime(process.uptime()),
                       'thumbnail': fs.readFileSync("./Media/Viniziaz.jpg"),
-                      'sourceUrl': "https://wa.me/254114660061?text=Hello👋+Nimco+Nihostie+Bot+Mkuu+😔",
+                      'sourceUrl': "https://wa.me/254759925133?text=Hello👋+Nimco+Nihostie+Bot+Mkuu+😔",
                       'mediaType': 0x1,
                       'renderLargerThumbnail': true
                     }
@@ -2345,7 +2345,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
           break;
         case "add":
           if (!_0x2c14bf) {
-            return _0x91a68a("provide a number to be added in this format. \n\n add 254114660061");
+            return _0x91a68a("provide a number to be added in this format. \n\n add 254759925133");
           }
           if (!_0x338562.isGroup) {
             throw group;
@@ -2656,7 +2656,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
             }
             let _0x29aa26 = _0x338562.mentionedJid[0x0] ? _0x338562.mentionedJid[0x0] : _0x338562.quoted ? _0x338562.quoted.sender : null;
             const _0x2c7d46 = _0x29aa26.split('@')[0x0];
-            if (_0x29aa26 == "254114660061@s.whatsapp.net") {
+            if (_0x29aa26 == "254759925133@s.whatsapp.net") {
               return _0x338562.reply("It's an Owner Number! 😡");
             }
             if (_0x29aa26 == _0x38a88a.decodeJid(_0x38a88a.user.id)) {
@@ -3984,7 +3984,7 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
               throw "𝗧𝗮𝗴 𝘀𝗼𝗺𝗲𝗼𝗻𝗲!";
             }
             let _0x36b33c = _0x338562.mentionedJid[0x0] ? _0x338562.mentionedJid[0x0] : _0x338562.quoted ? _0x338562.quoted.sender : _0x2c14bf.replace(/[^0-9]/g, '') + "@s.whatsapp.net";
-            if (_0x36b33c == '254114660061@s.whatsapp.net') {
+            if (_0x36b33c == '254759925133@s.whatsapp.net') {
               return _0x338562.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
             }
             if (_0x36b33c == _0x38a88a.decodeJid(_0x38a88a.user.id)) {
