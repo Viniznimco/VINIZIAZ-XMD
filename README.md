@@ -12,7 +12,7 @@ Viniziaz-Yᴍᴅ y³
 </p>
   
 </h1> 
-<p align="center">l introduce <b>Viniziaz-xmd</b>, a  simple WhatsApp bot Created By Viniziaz</p>
+<p align="center">𝐘𝐎𝐔 𝐀𝐑𝐄 𝐎𝐍  <b>Viniziaz-xmd</b>, 𝗔 𝗕𝗲𝗮𝘂𝘁𝗶𝗳𝘂𝗹 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁 𝗕𝘆 𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍</p>
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{viniziaz nimco}/count.svg" alt="Viniziaz ymd :: Visitor's Count" /></p>
@@ -55,7 +55,7 @@ href="https://wa.me/254759925133"><img title="Author" src="https://img.shields.i
 
 
 
-## HOW TO DEPLOY VINIZIAZ-Xᴍᴅ v³ 🦁
+## HOW TO DEPLOY 𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙-𝐗𝐌𝐃 🦁
 
 
 ## 1.FIRST STEP 
@@ -64,7 +64,7 @@ href="https://wa.me/254759925133"><img title="Author" src="https://img.shields.i
 
 <a href= "https://github.com/Viniznimco/VINIZIAZ-XMD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK REPO-h?color=brown&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
-star✨ Hello gee 👊 star my repo for smooth deployment 
+star✨ Hello gee 👊 𝐒𝐭𝐚𝐫 my 𝐫𝐞𝐩𝐨 for smooth deployment 
 
 
 ## 2.SECOND STEP 
@@ -102,8 +102,8 @@ _Termux Setup not recommended_
 
 <table>
   <tr>
-    <td>VINIZIAZ</td>
-    <td>SNAPDRAGON</td>
+    <td>𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙</td>
+    <td>🆂🅽🅰🅿🅳🆁🅰🅶🅾🅽</td>
   </tr>
   <tr>
     <td><a href="https://github.com/Viniznimco"><img src="https://i.imgur.com/bYClBF8.jpeg" width="180"</td>
