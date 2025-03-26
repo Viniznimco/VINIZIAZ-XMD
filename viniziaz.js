@@ -1,15 +1,5 @@
 /* What does this mean....? */
-const {
-  BufferJSON,
-  WA_DEFAULT_EPHEMERAL,
-  generateWAMessageFromContent,
-  proto,
-  generateWAMessageContent,
-  generateWAMessage,
-  prepareWAMessageMedia,
-  areJidsSameUser,
-  getContentType
-} = require("@whiskeysockets/baileys");
+const {BufferJSON,WA_DEFAULT_EPHEMERAL,generateWAMessageFromContent,proto,generateWAMessageContent,generateWAMessage,prepareWAMessageMedia,areJidsSameUser,getContentType} = require("@whiskeysockets/baileys");
 const fs = require('fs');
 const path = require("path");
 const util = require("util");
@@ -18,83 +8,18 @@ const chalk = require("chalk");
 const speed = require("performance-now");
 const Genius = require("genius-lyrics");
 const yts = require("yt-search");
-const {
-  DateTime
-} = require("luxon");
+const {DateTime} = require("luxon");
 const uploadtoimgur = require("./lib/imgur");
 const advice = require("badadvice");
-const {
-  c,
-  cpp,
-  node,
-  python,
-  java
-} = require("compile-run");
+const {c,cpp,node,python,java} = require("compile-run");
 const acrcloud = require("acrcloud");
 const ytdl = require("ytdl-core");
 const Client = new Genius.Client("TUoAEhL79JJyU-MpOsBDkFhJFWFH28nv6dgVgPA-9R1YRwLNP_zicdX2omG2qKE8gYLJat5F5VSBNLfdnlpfJg");
-const {
-  TelegraPh,
-  UploadFileUgu,
-  webp2mp4File,
-  floNime
-} = require("./lib/viniziazupload");
-const {
-  Configuration,
-  OpenAI
-} = require("openai");
-const {
-  menu,
-  autoread,
-  mode,
-  antidel,
-  antitag,
-  appname,
-  herokuapi,
-  gptdm,
-  botname,
-  antibot,
-  prefix,
-  author,
-  packname,
-  mycode,
-  admin,
-  botAdmin,
-  dev,
-  group,
-  bad,
-  DevViniziaz,
-  NotOwner,
-  antilink,
-  antilinkall,
-  wapresence,
-  badwordkick
-} = require("./set.js");
-const {
-  smsg,
-  runtime,
-  fetchUrl,
-  isUrl,
-  processTime,
-  formatp,
-  tanggal,
-  formatDate,
-  getTime,
-  sleep,
-  generateProfilePicture,
-  clockString,
-  fetchJson,
-  getBuffer,
-  jsonformat,
-  format,
-  parseMention,
-  getRandom
-} = require("./lib/viniziazfunc");
-const {
-  exec,
-  spawn,
-  execSync
-} = require("child_process");
+const {TelegraPh,UploadFileUgu,webp2mp4File, floNime} = require("./lib/viniziazupload");
+const {Configuration,OpenAI} = require("openai");
+const {menu,autoread,mode,antidel,antitag,appname,herokuapi,gptdm,botname,antibot,prefix,author,packname,mycode,admin,botAdmin,dev,group,bad,DevViniziaz,NotOwner,antilink,antilinkall,wapresence,badwordkick} = require("./set.js");
+const {smsg,runtime,fetchUrl,isUrl,processTime,formatp,tanggal,formatDate,getTime,sleep,generateProfilePicture,clockString,fetchJson,getBuffer,jsonformat,format,parseMention,getRandom} = require("./lib/viniziazfunc");
+const {exec,spawn,execSync} = require("child_process");
 module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) => {
   try {
     var _0xee96b6 = _0x338562.mtype === "conversation" ? _0x338562.message.conversation : _0x338562.mtype == 'imageMessage' ? _0x338562.message.imageMessage.caption : _0x338562.mtype == "videoMessage" ? _0x338562.message.videoMessage.caption : _0x338562.mtype == 'extendedTextMessage' ? _0x338562.message.extendedTextMessage.text : _0x338562.mtype == "buttonsResponseMessage" ? _0x338562.message.buttonsResponseMessage.selectedButtonId : _0x338562.mtype == "listResponseMessage" ? _0x338562.message.listResponseMessage.singleSelectReply.selectedRowId : _0x338562.mtype == "templateButtonReplyMessage" ? _0x338562.message.templateButtonReplyMessage.selectedId : _0x338562.mtype === "messageContextInfo" ? _0x338562.message.buttonsResponseMessage?.["selectedButtonId"] || _0x338562.message.listResponseMessage?.['singleSelectReply']["selectedRowId"] || _0x338562.text : '';
