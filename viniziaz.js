@@ -308,9 +308,9 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
       });
     }
     if (_0x2dea82 && !_0x338562.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ VINIZIAZ-XMD ]")), !_0x2437(0x417) ? chalk.green(_0x4bf303) : chalk.keyword("turquoise")(_0x4bf303), chalk.magenta("From"), chalk.green(_0x3d3499), chalk.yellow("[ " + _0x338562.sender.replace('@s.whatsapp.net', '') + " ]"));
+      console.log(chalk.black(chalk.bgWhite("[ VINIZIAZ-XMD ]")), !_0x4f0c(0x469) ? chalk.green(_0x372e98) : chalk.keyword("turquoise")(_0x372e98), chalk.magenta("From"), chalk.green(_0x12ae39), chalk.yellow("[ " + _0x4be48e.sender.replace('@s.whatsapp.net', '') + " ]"));
     } else if (_0x2dea82 && _0x338562.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ LOGS ]")), !_0x2437(0x417) ? chalk.green(_0x4bf303) : chalk.keyword("turquoise")(_0x4bf303), chalk.magenta("From"), chalk.green(_0x3d3499), chalk.yellow("[ " + _0x338562.sender.replace("@s.whatsapp.net", '') + " ]"), chalk.blueBright('IN'), chalk.green(_0x4444eb));
+      console.log(chalk.black(chalk.bgWhite("[ LOGS ]")), !_0x4f0c(0x469) ? chalk.green(_0x372e98) : chalk.keyword("turquoise")(_0x372e98), chalk.magenta("From"), chalk.green(_0x12ae39), chalk.yellow("[ " + _0x4be48e.sender.replace("@s.whatsapp.net", '') + " ]"), chalk.blueBright('IN'), chalk.green(_0x4444eb));
     }
     if (_0x2dea82) {
       switch (_0x4cc17f) {
