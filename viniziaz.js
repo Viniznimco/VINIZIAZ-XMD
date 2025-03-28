@@ -382,10 +382,18 @@ module.exports = viniziaz = async (_0x38a88a, _0x338562, _0x54bef0, _0x19773a) =
         'quoted': _0x338562
       });
     }
-    if (_0x2dea82 && !_0x338562.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ VINIZIAZ-XMD ]")), !_0x2437(0x417) ? chalk.green(_0x4bf303) : chalk.keyword("turquoise")(_0x4bf303), chalk.magenta("From"), chalk.green(_0x3d3499), chalk.yellow("[ " + _0x338562.sender.replace('@s.whatsapp.net', '') + " ]"));
-    } else if (_0x2dea82 && _0x338562.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ LOGS ]")), !_0x2437(0x417) ? chalk.green(_0x4bf303) : chalk.keyword("turquoise")(_0x4bf303), chalk.magenta("From"), chalk.green(_0x3d3499), chalk.yellow("[ " + _0x338562.sender.replace("@s.whatsapp.net", '') + " ]"), chalk.blueBright('IN'), chalk.green(_0x4444eb));
+    if (cmd && !m.isGroup) {
+      console.log(chalk.black(chalk.bgWhite("[ VINIZIAZ-XMD ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+    } else if (cmd && m.isGroup) {
+      console.log(
+        chalk.black(chalk.bgWhite("[ LOGS ]")),
+        color(argsLog, "turquoise"),
+        chalk.magenta("From"),
+        chalk.green(pushname),
+        chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`),
+        chalk.blueBright("IN"),
+        chalk.green(groupName)
+      );
     }
     if (_0x2dea82) {
       switch (_0x4cc17f) {
