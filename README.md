@@ -1,149 +1,80 @@
-<p align="center">
-𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 𝗩³
-</p>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +VINIZIAZ;WHATSAPP+BOT+CREATED+BY+VINIZIAZ" alt="Typing SVG" /></a>
+# 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+VINIZIAZ-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+NIMCO;PUBLIC+RELEASED; ...;TEAM VINIZIAZ-X𝙼𝙳." alt="Typing SVG" /></a>
   </p>
-
-<p align="center">
-  <a href="https://github.com/Viniznimco/VINIZIAZ-XMD">
-    <img alt="VINIZIAZ-XMD logo" height="700" width=1000 src="https://i.imgur.com/bYClBF8.jpeg">
-  </a>
-</p>
   
-</h1> 
-<p align="center">𝐘𝐎𝐔 𝐀𝐑𝐄 𝐎𝐍  <b>𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗</b>, 𝗔 𝗕𝗲𝗮𝘂𝘁𝗶𝗳𝘂𝗹 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁 𝗕𝘆 𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍</p>
+<p align="center">
 
+[![Nimco Viniz](https://github.com/Viniznimco.png?lenght=50width=50)](https://github.com/Viniznimco)
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{viniziaz nimco}/count.svg" alt="Viniziaz ymd :: Visitor's Count" /></p>
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=VINIZIAZ+WHATSAPP+BOT" alt="">
+</p>
+<p align="center">
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝗡𝗶𝗰𝗸_𝗛𝘂𝗻𝘁𝗲𝗿-blue.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Viniznimco?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Viniznimco?label=Followers&style=social"></a>
+<a href="https://github.com/Viniznimco/VINIZIAZ-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Viniznimco/VINIZIAZ-XMD?&style=social"></a>
+<a href="https://github.com/HunterNick2/VINIZIAZ-XMD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Viniznimco/VINIZIAZ-XMD?style=social"></a>
+<a href="https://github.com/Viniznimco/VINIZIAZ-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Viniznimco/VINIZIAZ-XMD?label=Watching&style=social"></a>
+</p>
+ 
 
----
+## ```CONTACT ME```
 
 <p align="center">
-  <a href="https://github.com/Viniznimco/VINIZIAZ-XMD"><b>Viniziaz xmd</b></a> Support Deploy On...
-</p>
-</a>
-  <div align="center">
-  <img src="https://github.com/Viniznimco/VINIZIAZ-XMD" alt="Widget with the current Spotify song"  />
-</div>
-<p align="center">
-  <a href="https://github.com/Viniznimco/VINIZIAZ-XMD/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Viniznimco/VINIZIAZ-XMD"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-  <a href="https://youtu.be/izoxfW3anrU"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
-</p>
+
+<a href="https://api.whatsapp.com/send?phone=254704009677&text=Hello+₦ł₥₵Ø"><img src="https://img.shields.io/badge/Contact 𝗡𝗜𝗠𝗖𝗢-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-***For Developer Please Support Here🙏✔️***
-- <a href="https://www.instagram.com/snapdragonz"><img title="Author" src="https://img.shields.io/badge/ON INSTAGRAM-black?style=for-the-badge&logo=Instagram"></a>
-- <a href="https://www.tiktok.com/@dallas387"><img title="Author" src="https://img.shields.io/badge/ON TikTok-black?style=for-the-badge&logo=tiktok"></a>
-- <a
-href="https://www.facebook.com/100087010467670"><img title="Author" src="https://img.shields.io/badge/ON Facebook-blue?style=for-the-badge&logo=facebook"></a>
-- <a
-href="https://wa.me/254759925133"><img title="Author" src="https://img.shields.io/badge/ON WhatsApp-pupple?style=for-the-badge&logo=watsapp"></a>
-- <a href="https://chat.whatsapp.com/CP2BirU5pBj04cXXgEbfuv"><img title="Author" src="https://img.shields.io/badge/ON Wa Group-green?style=for-the-badge&logo=watsapp"></a>
-- <a href="https://youtube.com/@herokuplatform?si=kl684fKNUpxTFig2"><img title="Author" src="https://img.shields.io/badge/ON YouTube-darkred?style=for-the-badge&logo=youtube"></a>
+***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/whiskeysockets/Baileys)***
+
+
+## DISCLAIMER
+- Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
+
+## FEATURES
+This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of Openai.
+
+Our AI features use random APIs to run, so sometimes they may be down.
+
+# SET-UP
+
+## ` Fork this repo`
+<p align="centre">
+<a href="https://github.com/Viniznimco/VINIZIAZ-XMD/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK VINIZIAZ-XMD" width="160"></a>
+<p/>
+  
+Linking/Pairing:
+## ` Pair onrender`
+<p align="centre">
+<a href="https://msnapdragonjuniour.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
+<p/>
+            
+
+###  𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨:
+
+
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Viniznimco/VINIZIAZ-XMD&template=https://github.com/Viniznimco/VINIZIAZ-XMD.git)***
+ 
 
     
 
+- Fill in the required variables into your hosting site for bot to work.
+ </h2>
+     
+
+    
  
 
 
 
----
 
-
-
-
-
-## HOW TO DEPLOY 𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙-𝐗𝐌𝐃 🦁
-
-
-## 1.FIRST STEP 
-## FORK MY 💥 REPO
-
-
-<a href= "https://github.com/Viniznimco/VINIZIAZ-XMD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK REPO-h?color=brown&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
-
-star✨ Hello gee 👊 𝐒𝐭𝐚𝐫 my 𝐫𝐞𝐩𝐨 for smooth deployment 
-
-
-## 2.SECOND STEP 
-
-
- GET SESSION ID BY
- 
-<a href="https://msnapdragon-junior.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=brown&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
-
-
- 
-<a href="https://msnapdragon-junior.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=brown&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
-
-
-## 3.THIRD STEP 
-**1. If You Don't Have An Account On Heroku**
-- <a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-brown?style=for-the-badge&logo=heroku" width="100" height="38.45"/></a></p>
-
-**2. If You Have Account On Heroku**
-
-   ***[![Deploy on heroku](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FViniznimco%2FVINIZIAZ-XMD)](https://viniziaz-xmd-website.vercel.app/)***
-
-**DEPLOY ON RENDER**
-
-•If you don't have an account in RENDER, create one and deploy.
-    <br>
-    <a href='https://dashboard.render.com/github/exists?next=%2Fselect-repo%3Ftype%3Dweb%26appInstall%3D1/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
-
-**•Koyeb and Render Deploy now available**
-
-_Termux Setup not recommended_
-
-**DEVELOPERS**
-
-<table>
-  <tr>
-    <td>𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙</td>
-    <td>🆂🅽🅰🅿🅳🆁🅰🅶🅾🅽</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Viniznimco"><img src="https://i.imgur.com/bYClBF8.jpeg" width="180"</td>
-    <td><a href="https://github.com/Viniznimco"><img src="https://i.imgur.com/0yrJJeN.jpeg" width="180"</td>
-  </tr>
-</table 
-
-
-CONTACT DEVELOPER ON WHATSAPP 
-
-<a href="https://wa.me/254759925133" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Viniziaz contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
- 
-<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/WhatsApp  Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
- 
-
-<img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## License
 
-The WhatsApp Bot VINIZIAZ MD🦁 is released under the [MIT License](https://opensource.org/licenses/MIT).
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+[MIT License](https://github.com/HunterNick2/RAVEN-BOT/blob/main/LICENSE)
 
-🦁THANK YOU FOR CHOOSING VINIZIAZ Md🦁
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+Copyright (c) 2025 VINIZIAZ-XMD 
 
-
-## DEVELOPERS :
-         `don't change here`
-- [**VINIZIAZ NIMCO**](https://github.com/Viniznimco/VINIZIAZ-XMD)
-- [**SNAPDRAGON**](https://github.com/Viniznimco/VINIZIAZ-XMD)
-- [** SIR VINIZIAZ TECH**](https://github.com/Frecyber)
-- [**Developers WA Group**](https://chat.whatsapp.com/CP2BirU5pBj04cXXgEbfuv)
-- [**Developers YouTube**](https://youtube.com/@herokuplatform)
- <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-
-★ABOVE ALL AGO SAY THANK YOU TO JAH. ©
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-     
