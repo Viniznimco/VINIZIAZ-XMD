@@ -248,7 +248,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       console.log(color("Congrats, VINIZIAZ-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘 𝗡𝗔𝗛 𝗚𝗘𝗘 ENJOY » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
+      client.sendMessage(client.user.id, { text: `𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘 𝗡𝗔𝗛 𝗚𝗘𝗘 𝓔𝓝𝓙𝓞𝒀 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
     }
   });
 
