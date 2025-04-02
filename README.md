@@ -11,7 +11,7 @@
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=VINIZIAZ+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝗡𝗶𝗰𝗸_𝗛𝘂𝗻𝘁𝗲𝗿-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-MSNAPDRAGON-pink.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Viniznimco?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Viniznimco?label=Followers&style=social"></a>
