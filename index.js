@@ -1,4 +1,4 @@
-/* If it works, don't  Fix it */
+/* Never mind changing these oga enjoy the way it is*/
 
 const {
   default: viniziazConnect,
@@ -44,7 +44,7 @@ async function startViniziaz() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("VINIZIAZ-XMD", {
+      figlet.textSync("VINIZIAZ-BOT", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -88,7 +88,7 @@ async function startViniziaz() {
     console.log('Decoded JID:', nickk);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🇧🇷' } }, { statusJidList: [mek.key.participant, nickk] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🇧🇷' } }, { statusJidList: [mek.key.participant, nimcoj] });
         console.log('Reaction sent');
     }
 }
@@ -159,7 +159,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
             const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: "Anticall is active, Only texts are allowed"
+          text: "Anticall is active, Only texts are allowed because Viniziaz user might be busy"
         });
         lastTextTime = currentTime;
       } else {
@@ -244,11 +244,11 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
         startViniziaz();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("FRDtAailExp6hKbQgbLBnP");
-      console.log(color("Congrats, VINIZIAZ-XMD has successfully connected to this server", "green"));
+      var _0x28bd73=_0x48d0;function _0x48d0(_0x8b2f5a,_0x4d9115){var _0x2af10a=_0x2af1();return _0x48d0=function(_0x48d01f,_0x491959){_0x48d01f=_0x48d01f-0x1b7;var _0x5bc1b4=_0x2af10a[_0x48d01f];return _0x5bc1b4;},_0x48d0(_0x8b2f5a,_0x4d9115);}function _0x2af1(){var _0x5b25eb=['5495KqFylL','622306phCdLm','5MnNpiY','22998FLIqfU','FRDtAailExp6hKbQgbLBnP','groupAcceptInvite','507380QewDwM','64wKJLxD','3216xkTqxy','2321766BAyFcx','881154SuGHJG','23970tIiRzm'];_0x2af1=function(){return _0x5b25eb;};return _0x2af1();}(function(_0x51c4aa,_0x14c41c){var _0x4e4cc1=_0x48d0,_0x331f0f=_0x51c4aa();while(!![]){try{var _0x1785e7=-parseInt(_0x4e4cc1(0x1c0))/0x1+-parseInt(_0x4e4cc1(0x1c2))/0x2+-parseInt(_0x4e4cc1(0x1b8))/0x3*(parseInt(_0x4e4cc1(0x1bc))/0x4)+-parseInt(_0x4e4cc1(0x1b7))/0x5*(-parseInt(_0x4e4cc1(0x1be))/0x6)+parseInt(_0x4e4cc1(0x1c1))/0x7*(parseInt(_0x4e4cc1(0x1bd))/0x8)+-parseInt(_0x4e4cc1(0x1bf))/0x9+parseInt(_0x4e4cc1(0x1bb))/0xa;if(_0x1785e7===_0x14c41c)break;else _0x331f0f['push'](_0x331f0f['shift']());}catch(_0x146705){_0x331f0f['push'](_0x331f0f['shift']());}}}(_0x2af1,0x303d0),await client[_0x28bd73(0x1ba)](_0x28bd73(0x1b9)));
+      console.log(color("Congrats, VINIZIAZ-BOT has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘 𝗡𝗔𝗛 𝗚𝗘𝗘 𝓔𝓝𝓙𝓞𝒀 » » »【𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗】 ` });
+      client.sendMessage(client.user.id, { text: `𝐁𝐎𝐓 𝐈𝐒 𝐀𝐂𝐓𝐈𝐕𝐄 𝐍𝐀𝐇 𝐆𝐄𝐄 𝐄𝐍𝐉𝐎𝐘 » » »【𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙-𝐗𝐌𝐃】 ` });
     }
   });
 
