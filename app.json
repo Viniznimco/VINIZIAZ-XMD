@@ -1,10 +1,10 @@
 {
-  "name": "VINIZIAZ-XMD",
-  "description": "Every page I open is like a new chapter",
+  "name": "MZAZI-XMD",
+  "description": "Everything I give glory to GOD",
   "keywords": [
     "bot",
     "whatsapp",
-    "raven",
+    "mzazi",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -25,21 +25,21 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,96656201130  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,96650201135  ",
       "required": true
     },
-    "ANTIDELETE": {
-      "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
+    "NOT_OWNER_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
       "required": false
     },
     
     
-    "AUTOREJECT_CALL": {
-      "description": "Put TRUE if you want bot to decline all incoming calls",
+    "BOT_ADMIN_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
       "required": false
     },
-    "ANTIFOREIGN": {
-      "description": "Input TRUE if you want bot to automatically remove foreigners who are not from your country code joining a group",
+    "ADMIN_MSG": {
+      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
       "required": false
     },
     "HEROKU_API": {
@@ -47,15 +47,15 @@
       "required": true
     },
     "BAD_WORD": {
-      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
+      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: Idiot, fuck, shit",
       "required": false
     },
     "BAD_WORD_KICK": {
       "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
       "required": false
     },
-    "ANTITAG": {
-      "description": "Put TRUE if you want bot kick out unnecessary tags from a group, Not sure if its working eh!",
+    "GROUP_ONLY_MSG": {
+      "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
       "required": false
     },
       "AUTOREAD": {
@@ -119,7 +119,7 @@
       "required": false
 },
  "GPT_INBOX": {
-      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API. For now not stable may cause spam!",
+      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
       "required": false
 },
  "MENU_TYPE": {
