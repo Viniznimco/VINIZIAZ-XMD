@@ -880,7 +880,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
           } else if (menu === 'IMAGE') {
             client.sendMessage(m.chat, {
               image: {
-                url: 'https://files.catbox.moe/duv8ac.jpg'
+                url: 'https://i.imgur.com/HP6GyiD.jpeg'
               },
               caption: `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭  𝗫𝗠𝗗 〙═════╮
 ┃✫╭═─────────────────═╮
@@ -1324,7 +1324,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
                   title: `𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗`,
                   body: `${runtime(process.uptime())}`,
                   thumbnail: fs.readFileSync('./Media/Viniziaz.jpg'),
-                  sourceUrl: 'https://wa.me/254759925133?text=Hello👋+Nick+Nihostie+Bot+Mkuu+😔',
+                  sourceUrl: 'https://wa.me/254759925133?text=Hello👋+Nimco+Nihostie+Bot+Mkuu+😔',
                   mediaType: 1,
                   renderLargerThumbnail: true
                 }
@@ -1537,7 +1537,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
         case "credits":
           client.sendMessage(m.chat, {
             image: {
-              url: 'https://i.imgur.com/Jp8zoUC.jpeg'
+              url: 'https://i.imgur.com/HP6GyiD.jpeg'
             },
             caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Viniznimco\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗`
           }, {
