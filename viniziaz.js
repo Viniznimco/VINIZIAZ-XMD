@@ -880,7 +880,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
           } else if (menu === 'IMAGE') {
             client.sendMessage(m.chat, {
               image: {
-                url: 'https://files.catbox.moe/duv8ac.jpg'
+                url: 'https://i.imgur.com/HP6GyiD.jpeg'
               },
               caption: `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭  𝗫𝗠𝗗 〙═════╮
 ┃✫╭═─────────────────═╮
@@ -1324,7 +1324,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
                   title: `𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗`,
                   body: `${runtime(process.uptime())}`,
                   thumbnail: fs.readFileSync('./Media/Viniziaz.jpg'),
-                  sourceUrl: 'https://wa.me/254759925133?text=Hello👋+Nick+Nihostie+Bot+Mkuu+😔',
+                  sourceUrl: 'https://wa.me/254759925133?text=Hello👋+Nimco+Nihostie+Bot+Mkuu+😔',
                   mediaType: 1,
                   renderLargerThumbnail: true
                 }
@@ -3941,7 +3941,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
             image: {
               url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg`
             },
-            caption: ` Hello👋 *${pushname}*,You can deploy 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/Viniznimco/VINIZIAZ-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://christ-bot.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗫𝗠𝗗░\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!`
+            caption: ` Hello👋 *${pushname}*,You can deploy 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/Viniznimco/VINIZIAZ-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://msnapdragon-junior.onrender.com\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗫𝗠𝗗░\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!`
           }, {
             quoted: m
           });
