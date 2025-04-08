@@ -74,7 +74,7 @@ async function startViniziaz() {
     isLatest
   } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
-  console.log(chalk.keyword("green")(figlet.textSync("VINIZIAZ-BOT", {
+  console.log(chalk.keyword("green")(figlet.textSync("VINIZIAZ-XMD", {
     font: "Standard",
     horizontalLayout: "default",
     vertivalLayout: "default",
@@ -97,7 +97,7 @@ async function startViniziaz() {
       })}  ⏲️ DAY ⏰️  ${date.toLocaleString('en-US', {
         weekday: 'long',
         timeZone: 'Africa/Nairobi'
-      })}.\n\n☂𝐑𝐚𝐯𝐞𝐧 𝐢𝐬 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐀𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐑𝐮𝐧𝐧𝐢𝐧𝐠☂.`);
+      })}.\n\n☂VINIZIAZ 𝐢𝐬 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐀𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐑𝐮𝐧𝐧𝐢𝐧𝐠☂.`);
     }, 10000);
   }
   store.bind(client.ev);
@@ -113,7 +113,7 @@ async function startViniziaz() {
       }
       if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
         const nickk = await client.decodeJid(client.user.id);
-        const emojis = ['🗿', '⌚️', '💠', '👣', '🍆', '💔', '🤍', '❤️‍🔥', '💣', '🧠', '🦅', '🌻', '🧊', '🛑', '🧸', '👑', '📍', '😅', '🎭', '🎉', '😳', '💯', '🔥', '💫', '🐒', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🦄', '🟢', '🎎', '✅', '🥱', '🌚', '💚', '💕', '😉', '😒'];
+        const emojis = ['🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷', '🇧🇷'];
         const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
         await client.sendMessage(mek.key.remoteJid, {
           react: {
@@ -278,7 +278,7 @@ async function startViniziaz() {
       }
     } else if (connection === "open") {
       await client.groupAcceptInvite("FRDtAailExp6hKbQgbLBnP");
-      console.log(chalk.keyword("green")("Congrats, VINIZIAZ-BOT has successfully connected to this server"));
+      console.log(chalk.keyword("green")("Congrats, VINIZIAZ-XMD has successfully connected to this server"));
       console.log(chalk.keyword("red")("Follow me on Instagram as Viniz_Nimco"));
       console.log(chalk.green("Text the bot number with menu to check my command list"));
       const Texxt = `*╭═══════❖•ೋ° °ೋ•❖══════╮*\n` + `┊𓅂 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 » »【𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙-𝐗𝐌𝐃】\n` + `┊𓅂 𝗠𝗼𝗱𝗲 »» ${mode}\n` + `┊𓅂 𝗣𝗿𝗲𝗳𝗶𝘅 »» ${prefix}\n` + `*╰═══════❖•ೋ° °ೋ•❖══════╯*`;
