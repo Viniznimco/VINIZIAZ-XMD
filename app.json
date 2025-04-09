@@ -1,6 +1,6 @@
 {
   "name": "VINIZIAZ-XMD",
-  "description": "Everything I give glory to GOD",
+  "description": "Everything I do I give Glory to God ",
   "keywords": [
     "bot",
     "whatsapp",
@@ -25,19 +25,14 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,96650201135  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,255797541221  ",
       "required": true
     },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
       "required": false
     },
-
     
-        "AUTOREJECT_CALL": {
-      "description": "Put TRUE if you want bot to decline all incoming calls",
-      "required": false
-    },
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
@@ -52,7 +47,7 @@
       "required": true
     },
     "BAD_WORD": {
-      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: Idiot, fuck, shit",
+      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
       "required": false
     },
     "BAD_WORD_KICK": {
