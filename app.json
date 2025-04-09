@@ -32,7 +32,12 @@
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
       "required": false
     },
+
     
+        "AUTOREJECT_CALL": {
+      "description": "Put TRUE if you want bot to decline all incoming calls",
+      "required": false
+    },
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
