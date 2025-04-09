@@ -21,53 +21,65 @@
   "env": {
     "PREFIX": {
       "description": "Prefix of VINIZIAZ-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "value": "#",
       "required": false
 
     },
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,255797541221  ",
+      "value": "254759925133",
       "required": true
     },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
+      "value": "Owner only",
       "required": false
     },
     
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
+      "value": "Bot is not Admin boss",
       "required": false
     },
     "ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
+      "value": "Only Viniziaz Owner is allowed to do this",
       "required": false
     },
     "HEROKU_API": {
       "description": "Put a Heroku api key here, will be required to update vars in your Dm",
+      "value": "HRKU-1f4fa21d-a94a-48ac-a4c2-6512bd35a95f",
       "required": true
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
+      "value": "Fuck,Pussy,hoe,shit,dm",
       "required": false
     },
     "BAD_WORD_KICK": {
       "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
+      "value": "TRUE",
       "required": false
     },
     "GROUP_ONLY_MSG": {
       "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
+      "value": "This comand is for group only",
       "required": false
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
+      "value": "FALSE",
       "required": true
 },
  "AUTOVIEW": {
       "description": "Input TRUE if you want bot to automatically read status update",
+      "value": "TRUE",
       "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
+      "value": "typing",
       "required": true
 },
  "WELCOMEGOODBYE": {
@@ -78,14 +90,17 @@
    
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
+      "value": "TRUE",
       "required": true
 },
  "ANTILINK_ALL": {
       "description": "Input TRUE if you want bot to kick users sending any links.",
+      "value": "TRUE",
       "required": true
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
+      "value": "FALSE",
       "required": false
 },
  "CODE": {
@@ -99,11 +114,13 @@
 },
  "MODE": {
       "description": "Input PRIVATE if you don't want other people to use your bot",
+      "value": "TRUE",
       "required": true
     },
     
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
+      "value": "TRUE",
       "required": false
 },
  "APP_NAME": {
@@ -112,18 +129,22 @@
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
+      "value": "VINIZIAZ",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
+      "value": "NIMCO",
       "required": false
 },
  "GPT_INBOX": {
       "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
+      "value": "FALSE",
       "required": false
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
+   "value": "LINK",
       "required": false
 
     
@@ -131,6 +152,7 @@
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
+      "value": "TRUE",
       "required": false
     }
   },
