@@ -11,6 +11,7 @@ const {
 } = require("@whiskeysockets/baileys");
 const fs = require("fs");
 const path = require('path');
+const uploadToCatbox = require('./lib/catbox');
 const util = require("util");
 global.axios = require('axios').default;
 const chalk = require("chalk");
