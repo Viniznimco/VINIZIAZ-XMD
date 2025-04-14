@@ -2518,56 +2518,107 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
           break;
 
         //========================================================================================================================//		      
-        case "ai":
-          {
-            const {
-              GoogleGenerativeAI: _0x817910
-            } = require("@google/generative-ai");
-            const _0xc0423b = require("axios");
-            try {
-              if (!m.quoted) {
-                return m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵!");
-              }
-              if (!text) {
-                return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
-              }
-              if (!/image/.test(mime)) {
-                return m.reply("𝗛𝘂𝗵 𝘁𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲! 𝗣𝗹𝗲𝗮𝘀𝗲 𝗧𝗮𝗴 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵 !");
-              }
-              let _0x3439a2 = await client.downloadAndSaveMediaMessage(m.quoted);
-              let _0x3dfb7c = await uploadtoimgur(_0x3439a2);
-              m.reply("𝗔 𝗺𝗼𝗺𝗲𝘁, 𝗹𝗲𝗺𝗺𝗲 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗺𝗮𝗴𝗲...");
-              const _0x4e9e6a = new _0x817910("AIzaSyDJUtskTG-MvQdlT4tNE319zBqLMFei8nQ");
-              async function _0x309a3c(_0x1400ed, _0x1a081e) {
-                const _0x53e4b2 = {
-                  responseType: "arraybuffer"
-                };
-                const _0x1175d9 = await _0xc0423b.get(_0x1400ed, _0x53e4b2);
-                const _0x2a4862 = Buffer.from(_0x1175d9.data).toString("base64");
-                const _0x2f6e31 = {
-                  data: _0x2a4862,
-                  mimeType: _0x1a081e
-                };
-                const _0x14b65d = {
-                  inlineData: _0x2f6e31
-                };
-                return _0x14b65d;
-              }
-              const _0x22a6bb = {
-                model: "gemini-1.5-flash"
-              };
-              const _0x42849d = _0x4e9e6a.getGenerativeModel(_0x22a6bb);
-              const _0x2c743f = [await _0x309a3c(_0x3dfb7c, "image/jpeg")];
-              const _0xcf53e3 = await _0x42849d.generateContent([text, ..._0x2c743f]);
-              const _0x195f9c = await _0xcf53e3.response;
-              const _0x3db5a3 = _0x195f9c.text();
-              await m.reply(_0x3db5a3);
-            } catch (_0x4b3921) {
-              m.reply("I am unable to analyze images at the moment\n" + _0x4b3921);
-            }
-          }
-          break;
+        
+		 case "ai": {
 
+			 const {
+
+GoogleGenerativeAI: _0x817910
+
+} = require("@google/generative-ai");
+
+const _0xc0423b = require("axios");
+
+		 
+
+try {
+
+if (!m.quoted) {
+
+return m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵!");
+
+}
+
+if (!text) {
+
+return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+
+}
+
+if (!/image/.test(mime)) {
+
+return m.reply("𝗛𝘂𝗵 𝘁𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲! 𝗣𝗹𝗲𝗮𝘀𝗲 𝗧𝗮𝗴 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵 !");
+
+}
+
+let _0x3439a2 = await client.downloadAndSaveMediaMessage(m.quoted);
+
+let _0x3dfb7c = await uploadToCatbox(_0x3439a2);
+
+m.reply("𝗔 𝗺𝗼𝗺𝗲𝘁, 𝗹𝗲𝗺𝗺𝗲 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗜𝗺𝗮𝗴𝗲...");
+
+const _0x4e9e6a = new _0x817910("AIzaSyDJUtskTG-MvQdlT4tNE319zBqLMFei8nQ");
+
+async function _0x309a3c(_0x1400ed, _0x1a081e) {
+
+const _0x53e4b2 = {
+
+responseType: "arraybuffer"
+
+};
+
+const _0x1175d9 = await _0xc0423b.get(_0x1400ed, _0x53e4b2);
+
+const _0x2a4862 = Buffer.from(_0x1175d9.data).toString("base64");
+
+const _0x2f6e31 = {
+
+data: _0x2a4862,
+
+mimeType: _0x1a081e
+
+};
+
+const _0x14b65d = {
+
+inlineData: _0x2f6e31
+
+};
+
+return _0x14b65d;
+
+}
+
+const _0x22a6bb = {
+
+model: "gemini-1.5-flash"
+
+};
+
+const _0x42849d = _0x4e9e6a.getGenerativeModel(_0x22a6bb);
+
+const _0x2c743f = [await _0x309a3c(_0x3dfb7c, "image/jpeg")];
+
+const _0xcf53e3 = await _0x42849d.generateContent([text, ..._0x2c743f]);
+
+const _0x195f9c = await _0xcf53e3.response;
+
+const _0x3db5a3 = _0x195f9c.text();
+
+await m.reply(_0x3db5a3);
+
+} catch (_0x4b3921) {
+
+m.reply("I am unable to analyze images at the moment\n" + _0x4b3921);
+
+}
+
+}
+
+break;
+
+
+        
         //========================================================================================================================//		      
         case "ai2":
           {
