@@ -1,6 +1,6 @@
 { 
    "name": "VINIZIAZ-AI", 
-   "version": "2.0.0", 
+   "version": "3.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
    "type": "commonjs", 
