@@ -4446,26 +4446,13 @@ break;
           break;
 
         //========================================================================================================================//		      
-        case "hidetag":
-        case "tag":
-          {
-            if (!m.isGroup) {
-              throw group;
-            }
-            if (!isBotAdmin) {
-              throw botAdmin;
-            }
-            if (!isAdmin) {
-              throw admin;
-            }
-            client.sendMessage(m.chat, {
-              text: q ? q : '😅𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😅',
-              mentions: participants.map(a => a.id)
-            }, {
-              quoted: m
-            });
-          }
-          break;
+        case "hidetag": case "tag": { 
+             if (!m.isGroup) throw group; 
+             if (!isBotAdmin) throw botAdmin; 
+             if (!isAdmin) throw admin; 
+            client.sendMessage(m.chat, { text : q ? q : '😅𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😅' , mentions: participants.map(a => a.id)}, { quoted: m }); 
+             } 
+ break;
 
         //========================================================================================================================//		      
         case "tagall":
