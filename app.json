@@ -30,6 +30,11 @@
       "value": "254759925133",
       "required": true
     },
+    "ANTIDELETE": {
+      "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
+      "value": "TRUE",
+      "required": false
+ },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
       "value": "Owner only",
