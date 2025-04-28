@@ -1,6 +1,6 @@
 # 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=NIGGA+WELCOME+AM+VINIZIAZ-XMD;MULTI+DEVICE+WHATSAPP+BOT;CODED+BY+VINIZIAZ;STAR+AND+FORK+THE+REPO" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Pink+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=NIGGA+WELCOME+AM+VINIZIAZ-XMD;MULTI+DEVICE+WHATSAPP+BOT;CODED+BY+VINIZIAZ;STAR+AND+FORK+THE+REPO" alt="Typing SVG" />
   </p>
   
 <p align="center">
