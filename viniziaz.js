@@ -290,7 +290,7 @@ module.exports = viniziaz = async (client, m, chatUpdate, store) => {
     //========================================================================================================================//	  
     if (budy.startsWith('>')) {
       if (!Owner) {
-        return reply('Only owner can evaluate bailey codes');
+        return reply('𝐘𝐨𝐡 𝐍𝐢𝐠𝐠𝐚 😂 𝐀𝐦 𝐕𝐈𝐍𝐈𝐙𝐈𝐀𝐙 𝐗𝐌𝐃 𝐰𝐡𝐚𝐭 𝐬𝐡𝐢𝐭𝐬 𝐚𝐫𝐞 𝐲𝐨𝐮 𝐭𝐫𝐲𝐢𝐧𝐠 𝐭𝐨 𝐟𝐢𝐧𝐝 𝐦𝐲 𝐛𝐚𝐢𝐥𝐞𝐲');
       }
       try {
         let evaled = await eval(budy.slice(2));
