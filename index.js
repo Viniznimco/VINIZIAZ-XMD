@@ -277,7 +277,7 @@ async function startViniziaz() {
         startViniziaz();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("DUrKOcGahOeA1yQQnE5Keo");
+      await client.groupAcceptInvite("KDTazAOm4qlLRxQ9zPEF8w");
       console.log(chalk.keyword("green")("Congrats, VINIZIAZ-XMD has successfully connected to this server"));
       console.log(chalk.keyword("red")("Follow me on Instagram as Viniz_Nimco"));
       console.log(chalk.green("Text the bot number with menu to check my command list"));
