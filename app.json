@@ -119,7 +119,7 @@
 },
  "MODE": {
       "description": "Input PRIVATE if you don't want other people to use your bot",
-      "value": "TRUE",
+      "value": "PUBLIC",
       "required": true
     },
     
