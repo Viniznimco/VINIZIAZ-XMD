@@ -1,6 +1,6 @@
 {
   "name": "VINIZIAZ-XMD",
-  "description": "Everything I do I give Glory to God ",
+  "description": "An AI mighty WhatsApp bot compiled by MSNAPDRAGON, ♤Enjoy♡",
   "keywords": [
     "bot",
     "whatsapp",
@@ -16,50 +16,42 @@
   ],
   "website": "https://github.com/Viniznimco/VINIZIAZ-XMD#readme",
   "repository": "https://github.com/Viniznimco/VINIZIAZ-XMD.git",
-  "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
+  "logo": "https://files.catbox.moe/duv8ac.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
       "description": "Prefix of VINIZIAZ-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
-      "value": "#",
       "required": false
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925133,255797541221  ",
-      "value": "254759925133",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254759925122,9668634256 ",
       "required": true
     },
     "ANTIDELETE": {
       "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
       "value": "TRUE",
       "required": false
- },
-    "NOT_OWNER_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
-      "value": "Owner only",
-      "required": false
     },
     
     
-    "BOT_ADMIN_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
-      "value": "Bot is not Admin boss",
+    "AUTOREJECT_CALL": {
+      "description": "Put TRUE if you want bot to decline all incoming calls",
+      "value": "TRUE",
       "required": false
     },
-    "ADMIN_MSG": {
-      "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
-      "value": "Only Viniziaz Owner is allowed to do this",
+    "ANTIFOREIGN": {
+      "description": "Input TRUE if you want bot to automatically remove foreigners who are not from your country code joining a group",
+      "value": "FALSE",
       "required": false
     },
     "HEROKU_API": {
       "description": "Put a Heroku api key here, will be required to update vars in your Dm",
-      "value": "HRKU-1f4fa21d-a94a-48ac-a4c2-6512bd35a95f",
       "required": true
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
-      "value": "Fuck,Pussy,hoe,shit,dm",
+      "value": "fuck,pussy,slut,bitch,cock,stupid",
       "required": false
     },
     "BAD_WORD_KICK": {
@@ -67,9 +59,8 @@
       "value": "TRUE",
       "required": false
     },
-    "GROUP_ONLY_MSG": {
-      "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
-      "value": "This comand is for group only",
+    "ANTITAG": {
+      "description": "Put TRUE if you want bot kick out unnecessary tags from a group, Not sure if its working eh!",
       "required": false
     },
       "AUTOREAD": {
@@ -84,7 +75,7 @@
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
-      "value": "typing",
+      "value": "recording",
       "required": true
 },
  "WELCOMEGOODBYE": {
@@ -94,18 +85,17 @@
 },
    
  "ANTILINK": {
-      "description": "Input TRUE if you want bot to kick link senders",
+      "description": "Input TRUE if you want bot to kick link senders only whatsapp group links",
       "value": "TRUE",
       "required": true
 },
  "ANTILINK_ALL": {
-      "description": "Input TRUE if you want bot to kick users sending any links.",
-      "value": "TRUE",
+      "description": "Input TRUE if you want bot to kick users sending any kind of link.",
+      "value": "FALSE",
       "required": true
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
-      "value": "FALSE",
       "required": false
 },
  "CODE": {
@@ -114,7 +104,7 @@
       "required": true
 },
  "SESSION": {
-      "description": "Paste your Session id here, as it is required for authenticationn.",
+      "description": "Paste your Session id you received after linking here, as it is required for authenticationn. important!",
       "required": true
 },
  "MODE": {
@@ -134,26 +124,27 @@
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
-      "value": "VINIZIAZ",
+      "value": "VINIZIAZ-XMD",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
-      "value": "NIMCO",
+      "value": "VINIZIAZ-XMD",
       "required": false
 },
  "GPT_INBOX": {
-      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
-      "value": "FALSE",
+      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API. For now not stable may cause spam!",
       "required": false
 },
- "MENU_TYPE": {
+  "MENU_LINK": {
+      "description": "Paste your Image Url here or use the default one, This will display it on your menu if you set MENU_TYPE as IMAGE.",
+      "value": "https://files.catbox.moe/duv8ac.jpg",
+      "required": false 
+    },  
+  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-   "value": "LINK",
-      "required": false
-
-    
-    
+      "value": "IMAGE",
+      "required": false 
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
