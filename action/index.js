@@ -32,7 +32,7 @@ const PhoneNumber = require("awesome-phonenumber");
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('../lib/viniziazexif');
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('../lib/viniziazfunc');
 const { sessionName, session, autobio, autolike, port, mycode, anticall, mode, prefix, antiforeign, packname, autoviewstatus } = require("../set.js");
-const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
+
 const color = (text, color) => {
   return !color ? chalk.green(text) : chalk.keyword(color)(text);
 };
