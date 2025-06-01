@@ -9,7 +9,7 @@
    }, 
    "keywords": [ "termux", "whatsapp-openai", "whatsapp-openai", "whatsapp-bot", "whatsapp-baileys", "baileys-md", "bot-wa", "bot-md", "whatsapp-multi-device" ], 
    "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
-   "author": "Viniz Nimco", 
+   "author": "VINIZIAZ", 
    "license": "MIT", 
    "dependencies": { 
      "@whiskeysockets/baileys": "latest",
@@ -80,10 +80,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Viniznimco/VINIZIAX-XMD.git" 
+     "url": "git+https://github.com/Viniznimco/VINIZIAZ-XMD.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Viniznimco/VINIZIAZ-XMD/issues" 
+     "url": "https://github.com/Viniznimco/RAVEN-XMD/issues" 
    }, 
    "homepage": "https://github.com/Viniznimco/VINIZIAZ-XMD#readme" 
    }
