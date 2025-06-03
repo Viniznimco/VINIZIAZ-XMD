@@ -29,7 +29,7 @@ const { Configuration, OpenAI } = require("openai");
 const { menu, menulink, autoread, mode, antidel, antitag, appname, herokuapi, gptdm, botname, antibot, prefix, author, packname, mycode, admin, botAdmin, dev, group, bad, owner, NotOwner, antilink, antilinkall, wapresence, badwordkick } = require("../set.js");
 const { smsg, runtime, fetchUrl, isUrl, processTime, formatp, tanggal, formatDate, getTime,  sleep, generateProfilePicture, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('../lib/viniziazfunc');
 const { exec, spawn, execSync } = require("child_process");
-module.exports = viniziaz = async (client, m, chatUpdate) => {
+module.exports = viniziaz = async (client, m, chatUpdate, store) => {
   try {
     var body =
       m.mtype === "conversation"
@@ -84,16 +84,31 @@ module.exports = viniziaz = async (client, m, chatUpdate) => {
     const qmsg = (quoted.msg || quoted);
     const cmd = body.startsWith(prefix);
     const badword = bad.split(",");
-    const Owner = owner.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
-    
 //========================================================================================================================//		      
 //========================================================================================================================//	      
-     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
-     const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";
-     const participants = m.isGroup && groupMetadata ? await groupMetadata.participants : ""; 
-     const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
-     const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
-     const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
+    const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => { }) : "";  
+    const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";  
+    const participants = m.isGroup && groupMetadata
+  ? groupMetadata.participants
+      .filter(p => p.pn)
+      .map(p => p.pn)
+  : [];
+    const groupAdmin = m.isGroup
+  ? groupMetadata.participants
+      .filter(p => p.admin && p.pn)
+      .map(p => p.pn)
+  : [];
+    const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
+	const groupSender = m.isGroup && groupMetadata
+  ? (() => {
+      const found = groupMetadata.participants.find(p => 
+        p.id === sender || client.decodeJid(p.id) === client.decodeJid(sender)
+      );
+      return found?.pn || sender;
+    })()
+  : sender;
+     const isAdmin = m.isGroup ? groupAdmin.includes(groupSender) : false;
+     const Owner = owner.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(groupSender)	
      const Dev = '254704009677'.split(",");
      const date = new Date()  
      const timestamp = speed(); 
@@ -480,7 +495,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 	  await mp3d ()
 		      
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══════〚 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭  𝗕𝗢𝗧 〛══════╗
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══════〚 𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭  𝗫𝗠𝗗 〛══════╗
 ║✫╭═╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ║✫┃ 𝗨𝘀𝗲𝗿 : ${m.pushName}
 ║✫┃ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
@@ -866,7 +881,7 @@ case 'quran': {
 		      
 //========================================================================================================================//	
 case "pair": case "rent": {
-if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 2541146XXX");
+if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 2547040XXX");
 
 	try {	
 const numbers = q.split(',') .map((v) => v.replace(/[^0-9]/g, '')) 
@@ -1106,7 +1121,7 @@ m.reply("_Please wait your download is in progress_");
 //========================================================================================================================//		      
 		      case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/duv8ac.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Viniznimco\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - For several command addition and bug fixing\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗`}, { quoted: m}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/duv8ac.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Viniz Nimco ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Viniznimco\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - For several command addition and bug fixing\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭-𝗫𝗠𝗗`}, { quoted: m}); 
                
 		      break;
 
@@ -1318,7 +1333,7 @@ const cheerio = require('cheerio');
 //========================================================================================================================//		      
 	      case 'metallic': {
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Metallic Nick");
+      m.reply("Example Usage : " + prefix + "Metallic Nimco");
       return;
     }
      try {
@@ -1339,7 +1354,7 @@ const cheerio = require('cheerio');
 //========================================================================================================================//		      
 	      case 'ice': {		      
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Ice Nick");
+      m.reply("Example Usage : " + prefix + "Ice Nimco");
       return;
     }
      try {
@@ -1360,7 +1375,7 @@ const cheerio = require('cheerio');
 //========================================================================================================================//		      
 	      case 'snow': {	      
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Snow Nick");
+      m.reply("Example Usage : " + prefix + "Snow Nimco");
       return;
     }
      try {
@@ -1381,7 +1396,7 @@ const cheerio = require('cheerio');
 //========================================================================================================================//		      
 	      case 'impressive': {		      
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "impressive Nick");
+      m.reply("Example Usage : " + prefix + "impressive Nimco");
       return;
     }
      try {
@@ -1497,7 +1512,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'neon':{		
 		     if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Neon Nick");
+      m.reply("Example Usage : " + prefix + "Neon Nimco");
       return;
     }
      try {
@@ -1518,7 +1533,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'silver': case 'silva': {		      
 		          if (!text || text == " ") {
-      m.reply("Example Usage : " + prefix + "Silva Nick");
+      m.reply("Example Usage : " + prefix + "Silva Nimco");
       return;
     }
      try {
@@ -1539,7 +1554,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'devil':{		      
 		          if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Devil Nick");
+      m.reply("Example Usage : " + prefix + "Devil Nimco");
       return;
     }
      try {
@@ -1560,7 +1575,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'typography': {   
 		          if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Typography Nick");
+      m.reply("Example Usage : " + prefix + "Typography Nimco");
       return;
     }
      try {
@@ -1581,7 +1596,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'purple': {		 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "purple Nick");
+      m.reply("Example Usage : " + prefix + "purple Nimco");
       return;
     }
      try {
@@ -1602,7 +1617,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'thunder':{		       
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Thunder Nick");
+      m.reply("Example Usage : " + prefix + "Thunder Nimco");
       return;
     }
 	try {
@@ -1692,7 +1707,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'hacker': {		      
 		      if (!text || text == "") {
-    m.reply("Example usage :  " + prefix + "hacker Nick");
+    m.reply("Example usage :  " + prefix + "hacker Nimco");
     return;
   }
   try {
@@ -1738,7 +1753,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'dragonball': {		      
     if (!text || text == "") {
-      m.reply("Example usage :  " + prefix + "dragonball Nick");
+      m.reply("Example usage :  " + prefix + "dragonball Nimco");
       return;
     }
       try {
@@ -1784,7 +1799,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'graffiti': {		      
 		      if (!text || text == "") {
-    m.reply("Example usage : " + prefix + "graffiti Nick");
+    m.reply("Example usage : " + prefix + "graffiti Nimco");
     return;
   }
   try {
@@ -1806,7 +1821,7 @@ m.reply("*Wait a moment...*");
 
 //========================================================================================================================//		      
 	      case 'cat': {		   
-		  if (!text || text == "") { m.reply("Example usage : * " + prefix + "cat Nick");
+		  if (!text || text == "") { m.reply("Example usage : * " + prefix + "cat Nimco");
     return;
   }
   try {
@@ -2378,7 +2393,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 			const { remini } = require('../lib/remini')
 			let media = await quoted.download()
 			let proses = await remini(media, "enhance")
-			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇-𝗫𝗺𝗱'}, { quoted: m })
+			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇-𝗕𝗼𝘁'}, { quoted: m })
 			}
 			break;
 
@@ -2799,7 +2814,7 @@ m.reply("An error occured.")
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "𝗛𝗶 𝗛𝘂𝗺𝗮𝗻👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
-          body: "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗕𝗢𝗧",
+          body: "𝗩𝗜𝗡𝗜𝗭𝗜𝗔𝗭 𝗫𝗠𝗗",
           thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
           sourceUrl: '',
           mediaType: 1,
@@ -4548,7 +4563,7 @@ if (!text) return m.reply("No emojis provided ? ")
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇-𝗫𝗺𝗱`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗩𝗶𝗻𝗶𝘇𝗶𝗮𝘇-𝗕𝗼𝘁`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
