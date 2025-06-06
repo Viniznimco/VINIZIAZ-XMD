@@ -37,7 +37,7 @@
     
     "AUTOREJECT_CALL": {
       "description": "Put TRUE if you want bot to decline all incoming calls",
-      "value": "TRUE",
+      "value": "FALSE",
       "required": false
     },
     "ANTIFOREIGN": {
