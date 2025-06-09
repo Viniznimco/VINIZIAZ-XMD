@@ -63,6 +63,8 @@
      "openai": "^3.1.0",
      "g4f": "^1.1.0",
      "acrcloud": "^1.4.0",
+     "sqlite3": "^5.1.6",
+     "sequelize": "^6.37.5",
      "mumaker": "^2.0.0",
      "ruhend-scraper": "^8.0.3",
      "ytdl-secktor": "^0.0.1-development", 
